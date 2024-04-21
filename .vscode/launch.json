@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-CommandApplication<account.cmd>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.test.account.cmd.CommandApplication",
+            "projectName": "account.cmd",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-QueryApplication<account.query>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.test.account.query.QueryApplication",
+            "projectName": "account.query",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
